@@ -35,7 +35,7 @@ async function startServer(){
         type Query {
             getTodos: [Todo]
         }
-    `
+    `,
     resolvers:{
       query: {
         getTodos: () => [{ id: 1, title: "something is here", completed: false }]
