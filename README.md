@@ -45,7 +45,7 @@ async function startServer(){
 });
 
   app.use(bodyParser.json())
-  app.use(cors{});
+  app.use(cors());
 
   await server.start()
 
