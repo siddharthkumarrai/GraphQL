@@ -38,9 +38,8 @@ async function startServer(){
     `
     resolvers:{
       query: {
-        getTodos: () => [
-          { id: 1, title: "something is here", completed: false },
-        ]
+        getTodos: () => [{ id: 1, title: "something is here", completed: false }]
+      }
     }
 });
 
