@@ -1,4 +1,15 @@
 # GraphQL
+```node
+$npm i express graphql express-graphql nanoid
+```
+> index.js
+```javascript
+
+```
+> schema.js
+```javascript
+
+```
 > graphql
 ```javascript
 mkdir client, server
